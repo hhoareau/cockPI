@@ -1,3 +1,5 @@
+rmdir --ignore-fail-on-non-empty cockpit-0.99
+
 sudo apt-get install -y libpam-dev libkeyutils-dev glib-networking
 sudo apt-get install -y autoconf intltool libglib2.0-dev libsystemd-journal-dev libjson-glib-dev libpolkit-agent-1-dev libkrb5-dev libssh-dev
 
